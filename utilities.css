@@ -1,0 +1,104 @@
+.alkali {
+    background-color: #d8f8ff;
+    border-color: #00758c;
+    color: #00758c;
+    stroke: #00758c;
+}
+
+
+.metalloids {
+    background-color: #fef7e0;
+    border-color: #945700;
+    color: #945700;
+    stroke: #945700;
+}
+
+.actinides {
+    background-color: #ffe6d4;
+    border-color: #c73200;
+    color: #c73200;
+    stroke: #c73200;
+}
+
+.alkali-earth-metals {
+    background-color: #ffe7e7;
+    border-color: #d60024;
+    color: #d60024;
+    stroke: #d60024;
+}
+
+.reactive-non-metal {
+    background-color: #e2eeff;
+    border-color: #0060f0;
+    color: #0060f0;
+    stroke: #0060f0;
+}
+
+.unknow-properties {
+    background-color: #e7e7ea;
+    border-color: #3f374f;
+    color: #3f374f;
+    stroke: #3f374f;
+}
+
+.transition-metal {
+    background-color: #f3e8fd;
+    border-color: #6232ec;
+    color: #6232ec;
+    stroke: #6232ec;
+}
+
+.noble-gases {
+    background-color: #ffe7eb;
+    border-color: #cd1d5e;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+}
+
+.post-transition-propertie {
+    background-color: #d6f9e8;
+    border-color: #227754;
+    color: #227754;
+    stroke: #227754;
+}
+
+.lanthanides {
+    background-color: #dff3ff;
+    border-color: #003355;
+    color: #003355;
+    stroke: #003355;
+}
+
+.g-f-z {
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.g-w-h {
+    border: 1px solid transparent;
+    width: 8rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+
+.half{
+    width: 7rem;
+    height: 7rem;
+}
+.half-r{
+    width: 3.5;
+    height: 3.5;
+}
+
+.para {
+    font-size: 1.5rem;
+}
+
+.bullet{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4px;
+    display: inline-block;
+}
+

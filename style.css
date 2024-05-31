@@ -1,0 +1,165 @@
+/* Base Typography Styles */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+* {
+  /* box-sizing: inherit; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  /* 16px */
+  line-height: 1.6;
+  background-color: #FFFFFF;
+  display: grid;
+  place-items: center;
+}
+
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Queries */
+
+/* Desktops (1281px and higher) */
+@media (min-width: 1285px) {
+
+}
+
+/* Laptops and Desktops (1025px to 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* Tablets and iPads (Portrait) (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  .g-f-z {
+    font-size: 2.4rem;
+  }
+
+  .g-w-h {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .half {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .half-r {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* Tablets and iPads (Landscape) (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* Low Resolution Tablets, Mobiles (Landscape) (481px to 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 50%;
+  }
+
+  .g-f-z {
+    font-size: 2rem;
+  }
+
+  .g-w-h {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .half {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .half-r {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+/* Most Smartphones (Portrait) (320px to 479px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  .g-f-z {
+    font-size: 0.5rem;
+  }
+
+  .g-w-h {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .half {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .half-r {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width:200px) {
+  html {
+    font-size: 50%;
+  }
+
+  .g-f-z {
+    font-size: 0.5rem;
+  }
+
+  .g-w-h {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .half {
+    width: 0.5rem;
+    height: 1rem;
+  }
+
+  .half-r {
+    width: 1rem;
+    height: 1rem;
+  }
+}
